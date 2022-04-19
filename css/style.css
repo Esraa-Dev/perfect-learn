@@ -1,0 +1,489 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+header {
+  background-color: #fff;
+  height: 80px;
+}
+nav {
+  width: 65%;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+header .logo {
+  float: left;
+  width: 35%;
+  margin-top: 5px;
+  line-height: 80px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+nav ul li a .fa {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  margin-right: 60px;
+  padding: 5px;
+}
+nav ul li a:hover {
+  color: #d4a81e;
+}
+.home {
+  background-image: url(../images/banner_img.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.home-content {
+  text-align: center;
+  line-height: 1.2;
+  font-size: 20px;
+}
+.home-content h2 {
+  color: #fff;
+  font-size: 55px;
+}
+.home-content h3 {
+  color: #d4a81e;
+  font-size: 40px;
+  margin-top: 120px;
+}
+.home-content p {
+  color: #fff;
+  font-size: 30px;
+}
+.home-content button {
+  background-color: #d4a81e;
+  color: #fff;
+  margin-top: 60px;
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+
+.after-home {
+  background-color: #fff;
+  width: 85%;
+  overflow: hidden;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: blanchedalmond;
+  margin: auto;
+  right: 5px;
+  margin-top: -140px;
+  box-shadow: 0px 0 14px 0 rgba(0, 0, 0, 0.3);
+}
+.university,
+.graduation,
+.television,
+.social,
+.location,
+.message,
+.phone {
+  width: 14%;
+  padding-top: 20px;
+  float: left;
+  text-align: center;
+}
+
+.university,
+.graduation,
+.television,
+.social,
+.location,
+.message,
+.phone p {
+  font-size: 18px;
+}
+.location,
+.phone {
+  background-color: #095a83;
+
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.message {
+  background-color: #e0af14;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.about .fa-chevron-right {
+  left: 0px;
+  top: 3000px;
+}
+.about .fa-chevron-left {
+  right: 0px;
+  top: 3000px;
+}
+.about .fa {
+  position: absolute;
+  color: white;
+  background-color: #d4a81e;
+  line-height: 50px;
+  bottom: 80px;
+}
+.about {
+  overflow: hidden;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+.about h2 {
+  color: #095a83;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.about-content p {
+  font-size: 15px;
+  line-height: 2;
+  margin-left: 40px;
+  color: #4a4a49;
+}
+.about-content {
+  width: 48%;
+  float: left;
+}
+.about-content img {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.about-image {
+  width: 48%;
+  float: right;
+}
+.about button {
+  background-color: #095a83;
+  color: #fff;
+  margin-left: 40px;
+  width: 160px;
+  height: 40px;
+  clip-path: polygon(0 1%, 94% 0, 84% 100%, 0% 100%);
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin-top: 40px;
+}
+.about button:hover {
+  background-color: black;
+}
+
+.courses {
+  text-align: center;
+  width: 100%;
+  height: 700px;
+}
+.courses h2 {
+  color: #095a83;
+  font-size: 40px;
+}
+.courses h2 span {
+  color: black;
+}
+.image-container {
+  width: 30%;
+  float: left;
+  margin-left: 37px;
+  text-align: center;
+}
+.courses-images {
+  overflow: hidden;
+}
+.image-container h3 {
+  font-weight: lighter;
+  color: cornflowerblue;
+  background-color: #fff;
+  width: 290px;
+  height: 70px;
+  font-size: 20px;
+  line-height: 70px;
+
+  position: relative;
+  top: -30px;
+  left: 50px;
+  box-shadow: 0px 0 14px 0 rgba(0, 0, 0, 0.3);
+}
+
+.apply {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  height: 400px;
+  overflow: hidden;
+  background-color: #eeeeee;
+}
+.apply-content {
+  width: 53%;
+  float: right;
+}
+.apply-image {
+  width: 45%;
+  float: left;
+}
+.apply h2 {
+  color: #095a83;
+  font-size: 40px;
+  margin-top: 40px;
+}
+.apply .apply-content p {
+  font-size: 15px;
+  line-height: 2;
+  color: #4a4a49;
+  margin-top: 25px;
+}
+.apply-content button {
+  background-color: #095a83;
+  color: #fff;
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  clip-path: polygon(0 1%, 94% 0, 84% 100%, 0% 100%);
+}
+*/ .research {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+.research .research-content {
+  width: 48%;
+  float: left;
+  margin-left: 50px;
+}
+.research.research-img {
+  width: 50%;
+  float: right;
+}
+
+.research h2 {
+  color: #095a83;
+  font-size: 35px;
+}
+.research img {
+  margin-bottom: 40px;
+}
+.research .research-content p {
+  font-size: 16px;
+  line-height: 2;
+  color: #4a4a49;
+}
+.research-content button {
+  background-color: #095a83;
+  color: #fff;
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  clip-path: polygon(0 1%, 94% 0, 84% 100%, 0% 100%);
+}
+*/ .news {
+  width: 100%;
+  height: 700px;
+  background-color: darkkhaki;
+  overflow: hidden;
+  margin-top: 200px;
+  position: relative;
+}
+.news .educ {
+  width: 43%;
+  float: left;
+  margin-left: 70px;
+}
+.news .tech {
+  width: 43%;
+  float: right;
+  margin-right: 70px;
+}
+.news .title-2 h2 {
+  color: #095a83;
+  font-size: 35px;
+  text-align: center;
+}
+.news .fa {
+  position: absolute;
+  color: white;
+  background-color: #d4a81e;
+  line-height: 50px;
+  bottom: 80px;
+  width: 55px;
+  height: 50px;
+  text-align: center;
+  font-size: 23px;
+}
+.news .fa-chevron-right {
+  left: 0px;
+  top: 3000px;
+}
+.news .fa-chevron-left {
+  right: 0px;
+  top: 3000px;
+}
+
+.tech h2,
+.educ h2 {
+  background-color: #fff;
+  top: -60px;
+  width: 440px;
+  height: 60px;
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0px 0 14px 0 rgba(0, 0, 0, 0.3);
+}
+.tech p,
+.educ p {
+  width: 88%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.contact {
+  background-color: #12385b;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.img-contact {
+  width: 49%;
+  float: left;
+}
+.sign-up {
+  float: right;
+  width: 49%;
+  margin-left: 2px;
+  margin-top: 90px;
+}
+.contact form input {
+  display: block;
+  margin-bottom: 27px;
+  width: 95%;
+  height: 63px;
+  font-size: 17px;
+  padding-left: 14px;
+}
+.contact form textarea {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.contact form button {
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  margin-left: 150px;
+  font-size: 25px;
+  text-transform: capitalize;
+  background-color: #e0af14;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+}
+footer {
+  background-color: #0b1c2c;
+  width: 100%;
+  height: 400px;
+}
+.logo-footer,
+.links,
+.letter,
+.contact-section {
+  float: left;
+  width: 22%;
+  margin-left: 3%;
+  color: white;
+  font-size: 16px;
+}
+.footer-box {
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.contact-section ul,
+.links ul {
+  list-style-type: none;
+}
+.contact-section li,
+.links li {
+  padding-bottom: 25px;
+}
+
+.contact-section i {
+  color: #e0af14;
+  font-size: 25px;
+}
+.logo-footer h2,
+.links h2,
+.letter h2,
+.contact-section h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid #e0af14 2px;
+}
+.logo-footer p,
+.letter p {
+  line-height: 1.8;
+}
+.letter input {
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  padding-left: 4px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.letter button {
+  margin-top: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  width: 100px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #e0af14;
+  font-size: 17px;
+}
+
+.last-section {
+  background-color: #095a83;
+  width: 100%;
+  height: 60px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+}
